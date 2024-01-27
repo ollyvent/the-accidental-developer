@@ -4,6 +4,7 @@ title: "From Misfit to Marverick: A Journey of Transformation and Triumph in Pro
 date: "Jan 24 2024"
 excerpt: "This is a compelling story of self discovery, resilience and personal triumph. Join me as i uncover my very challenging journey, going from accidentally enrolling into a front-End Developer class, to discovering my own special way of learning to code, and becoming an extra-ordinary developer, and guess what? Learn Programming through this process"
 cover_image: "![stand out](https://media.istockphoto.com/id/1340302765/photo/success-yellow-arrow-on-black-arrows-background-standing-out-from-the-crowd-lucky-business.webp?b=1&s=170667a&w=0&k=20&c=Jvv1knoTaQEUzN0xTfrfCtUuA0gnuhHJ6pLj16CmJbM=)"
+
 ---
 
 

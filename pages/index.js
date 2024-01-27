@@ -10,7 +10,11 @@ export default function Home({ posts }) {
         <title>Accidental Developer Blog</title>
       </Head>
 
-      <h2>Hello</h2>
+      <div className="posts">
+        {posts.map((post, index) =>(
+        <h3>{post.frontmatter.title}</h3>
+        ))}
+      </div>
     </div>
   );
 }
@@ -31,7 +35,7 @@ export async function getStaticProps() {
       "utf-8"
     );
 
-      const {data:frontmatter} = matter(markDownWithMeta)
+    const { data: frontmatter } = matter(markDownWithMeta);
 
     return {
       slug,
