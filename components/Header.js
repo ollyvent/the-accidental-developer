@@ -4,9 +4,10 @@ function Header() {
     <header>
       <div className="container">
         <Link href="/">
-          <h2>
-            Accidental <span>DEVELOPER</span>
-          </h2>
+          <div className="acc">
+            Accidental
+          </div>
+          <span id="dev">DEVELOPER</span>
         </Link>
       </div>
     </header>
