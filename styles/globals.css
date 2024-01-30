@@ -27,7 +27,7 @@ img {
 }
 
 header {
-  background: steelblue;
+  background: rgb(45, 100, 145);
   color: #fff;
   padding: 5px;
   margin-bottom: 40px;
@@ -46,9 +46,9 @@ header a {
 
 .btn {
   display: inline-block;
-  background: steelblue;
-  color: #fff;
-  border: none;
+  background: #b3b2b26a;
+  color: #000;
+  border: solid 1px;
   padding: 8px 16px;
   border-radius: 5px;
   cursor: pointer;
@@ -66,7 +66,7 @@ header a {
 }
 
 .btn-back {
-  background: #f4f4f4;
+  background: #b3b2b26a;
   color: #000;
   margin-bottom: 20px;
 }
@@ -116,8 +116,8 @@ ol {
 .acc{
   font-family: 'sacramento', cursive;
   font-size: 25px;
-  color: #232323;
-  text-shadow: #9f9f9f 2px 2px 2px;
+  color: #ffffff;
+  text-shadow: #ffffff 1px 2px 5px;
   /* margin-bottom: 0; */
   /* padding-bottom: 0; */
   /* line-height: 10px; */
@@ -127,7 +127,7 @@ ol {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: rgb(255, 255, 255);
-  -webkit-text-fill-color: steelblue;
+  -webkit-text-fill-color: rgb(45, 100, 145);
   letter-spacing: 3px;
   font-size: 30px;
   /* margin-top: 0; */
@@ -136,6 +136,7 @@ ol {
   /* border-top: 1px solid; */
 
 }
+
 
 @media (max-width: 500px) {
   .posts {

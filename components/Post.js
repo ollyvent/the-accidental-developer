@@ -10,7 +10,7 @@ function Post({post}) {
         <p>{post.frontmatter.excerpt}</p>
 
         <Link legacyBehavior href={`/blog/${post.slug}`}>
-          <a className="btn">Read More</a>
+          <a className="btn">more</a>
         </Link>
     </div>
   )
