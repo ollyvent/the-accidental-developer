@@ -1,4 +1,5 @@
 import Link from "next/link";
+
 function Header() {
   return (
     <header>
@@ -10,7 +11,7 @@ function Header() {
           <span id="dev">DEVELOPER</span>
         </Link>
       </div>
-    </header>
+    </header>    
   );
 }
 

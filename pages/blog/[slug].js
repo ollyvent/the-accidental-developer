@@ -12,7 +12,7 @@ function PostPage({
   return (
     <>
       <Link legacyBehavior href="/">
-        <a className="btn btn-back">Go Back</a>
+        <a className="btn back-btn">Back</a>
       </Link>
       <div className="card card-page">
         <h1 className="post-title">{title}</h1>
@@ -21,7 +21,11 @@ function PostPage({
         <div className="post-body">
           <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
         </div>
+        <Link legacyBehavior href="/">
+        <a className="btn back-btn">Back</a>
+      </Link>
       </div>
+      
     </>
   );
 }

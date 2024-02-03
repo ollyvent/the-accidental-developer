@@ -13,7 +13,9 @@
     "marked": "^11.2.0",
     "next": "14.1.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "readline-sync": "^1.4.10",
+    "vscode": "^1.1.34"
   },
   "devDependencies": {
     "eslint": "^8",

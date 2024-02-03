@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Tangerine&family=Great+Vibes&family=Sacramento&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Tangerine&family=Great+Vibes&family=Sacramento&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Amatic+SC&family=Concert+One&family=Ephesis&family=Libre+Barcode+128&family=Poiret+One&family=Sarabun:wght@400&family=Thasadith&family=Zilla+Slab+Highlight:wght@700&display=swap');
 
 * {
   box-sizing: border-box;
@@ -8,7 +8,14 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Sarabun", sans-serif;
+  letter-spacing: 1px;
+  font-size: 25px;
+}
+
+h6{
+  font-size: 40px;
+  color: #937c4e;
 }
 
 p {
@@ -22,8 +29,12 @@ a {
 }
 
 img {
-  width: 100%;
-  border-radius: 10px;
+  width: 100%;  
+}
+
+.light-bulb{
+  padding: 10px;
+  border: solid 1px #c8c7c76a;
 }
 
 header {
@@ -37,6 +48,10 @@ header a {
   color: #fff;
 }
 
+
+.main-heading{
+font-family: 'Zilla Slab Highlight', serif;
+}
 .container {
   max-width: 768px;
   margin: auto;
@@ -46,11 +61,9 @@ header a {
 
 .btn {
   display: inline-block;
-  background: #b3b2b26a;
+  background: #c8c7c76a;
   color: #000;
-  border: solid 1px;
   padding: 8px 16px;
-  border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
   font-size: 15px;
@@ -65,8 +78,8 @@ header a {
   transform: scale(0.98);
 }
 
-.btn-back {
-  background: #b3b2b26a;
+.back-btn {
+  background: #c8c7c76a;
   color: #000;
   margin-bottom: 20px;
 }
@@ -79,23 +92,23 @@ header a {
 }
 
 .card {
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border: solid 1px #c8c7c76a;
 }
 
 .card-page {
   padding: 15px 30px;
+  margin: 10px 0;
 }
 
 .post-title {
   margin: 10px 0;
+  font-family: 'Zilla Slab Highlight', serif;
 }
 
 .post-date {
-  background: #f4f4f4;
   margin-bottom: 20px;
-  padding: 3px 10px;
+  font-family: Ephesis, sans-serif;
 }
 
 .post-body ul,
@@ -113,30 +126,23 @@ ol {
   line-height: 2.3;
 }
 
-.acc{
-  font-family: 'sacramento', cursive;
-  font-size: 25px;
+.acc {
+  font-family: "sacramento", cursive;
+  font-size: 30px;
   color: #ffffff;
   text-shadow: #ffffff 1px 2px 5px;
-  /* margin-bottom: 0; */
-  /* padding-bottom: 0; */
-  /* line-height: 10px; */
+  line-height: 10px;
+  padding-top: 20px;
 }
 
-#dev{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+#dev {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: rgb(255, 255, 255);
   -webkit-text-fill-color: rgb(45, 100, 145);
   letter-spacing: 3px;
-  font-size: 30px;
-  /* margin-top: 0; */
-  padding-top: -1px;
-  line-height: 10px;
-  /* border-top: 1px solid; */
-
+  font-size: 40px;
 }
-
 
 @media (max-width: 500px) {
   .posts {

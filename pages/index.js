@@ -12,22 +12,31 @@ export default function Home({ posts }) {
         <title>Accidental Developer Blog</title>
       </Head>
       <div className="hero">
-        <h1>From Misfit to Marverick:</h1>
-        <h3>A Journey of Transformation and Triumph in Programming</h3>
+        <h1 className="main-heading"><b>FROM MISFIT TO MARVERICK</b></h1>
         <br />
-        <img className="light-bulb" src="./images/posts/light_bulb.jpg" alt="" />
+        <h6>A Journey of Transformation and Triumph in Programming</h6>
+        <br />
+        <img
+          className="light-bulb"
+          src="./images/posts/light_bulb.jpg"
+          alt="light buld moment"
+        />
         <p>
           This is a compelling story of self discovery, resilience and personal
-          triumph. <br /> <br /> Join me as i uncover my very challenging
-          journey, going from accidentally enrolling into a front-End Developer
-          class, to discovering my own special way of learning to code, and
-          becoming an extra-ordinary developer, and guess what? <br /> Learn
-          Programming through this process
+          triumph.
         </p>
-        <br />
-        <br />
-        <h3>My Boot-Camp Series</h3>
+
+        <p>
+          Join me as I uncover my very challenging journey, going from
+          accidentally enrolling into a front-End Developer class, to
+          discovering my own special way of learning to code, and becoming an
+          extra-ordinary developer, and guess what?
+          <p>Learn Programming through this process.</p>
+        </p>
+
+        <h2>Front-End Development Series</h2>
       </div>
+
       <div className="posts">
         {posts.map((post, index) => (
           <Post post={post} />

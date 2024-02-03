@@ -1,8 +1,8 @@
 import React from 'react'
 
-function sortByDate(a, b) {
+function sortDate(a, b) {
   return new Date(b.frontmatter.date) - new Date(a.frontmatter.date)
   
 }
 
-export default sortByDate
+export default sortDate
