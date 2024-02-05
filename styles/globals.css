@@ -1,3 +1,4 @@
+/* styles.css */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Tangerine&family=Great+Vibes&family=Sacramento&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Amatic+SC&family=Concert+One&family=Ephesis&family=Libre+Barcode+128&family=Poiret+One&family=Sarabun:wght@400&family=Thasadith&family=Zilla+Slab+Highlight:wght@700&display=swap');
 
@@ -37,14 +38,14 @@ img {
   border: solid 1px #c8c7c76a;
 }
 
-header {
+.custom-header {
   background: rgb(45, 100, 145);
   color: #fff;
   padding: 5px;
   margin-bottom: 40px;
 }
 
-header a {
+.custom-header a {
   color: #fff;
 }
 
@@ -52,14 +53,35 @@ header a {
 .main-heading{
 font-family: 'Zilla Slab Highlight', serif;
 }
-.container {
+
+.brand-name {
+  font-family: "Sacramento", cursive;
+  font-size: 30px;
+  color: #ffffff;
+  text-shadow: #ffffff 1px 2px 5px;
+  line-height: 10px;
+  padding-top: 20px;
+}
+
+.role {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
+  -webkit-text-fill-color: rgb(45, 100, 145);
+  letter-spacing: 3px;
+  font-size: 40px;
+}
+
+
+/* Custom Container styling */
+.custom-container {
   max-width: 768px;
   margin: auto;
   overflow: auto;
   padding: 0 10px;
 }
 
-.btn {
+.custom-btn {
   display: inline-block;
   background: #c8c7c76a;
   color: #000;
@@ -70,11 +92,11 @@ font-family: 'Zilla Slab Highlight', serif;
   font-family: inherit;
 }
 
-.btn:focus {
+.custom-btn:focus {
   outline: none;
 }
 
-.btn:hover {
+.custom-btn:hover {
   transform: scale(0.98);
 }
 
@@ -84,36 +106,37 @@ font-family: 'Zilla Slab Highlight', serif;
   margin-bottom: 20px;
 }
 
-.posts {
+.custom-posts {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   margin-top: 30px;
 }
 
-.card {
+.custom-card {
   padding: 10px;
   border: solid 1px #c8c7c76a;
 }
 
-.card-page {
+.custom-card-page {
   padding: 15px 30px;
   margin: 10px 0;
 }
 
-.post-title {
+.custom-post-title {
   margin: 10px 0;
   font-family: 'Zilla Slab Highlight', serif;
 }
 
-.post-date {
+.custom-post-date {
   margin-bottom: 20px;
   font-family: Ephesis, sans-serif;
   font-size: 15px;
 }
 
-.post-body ul,
-ol {
+/* Custom Post body styling */
+.custom-post-body ul,
+.custom-post-body ol {
   font-size: 110%;
   line-height: 2.3;
   font-weight: bold;
@@ -145,8 +168,9 @@ ol {
   font-size: 40px;
 }
 
-/* @media (max-width: 500px) {
+@media (max-width: 500px) {
   .posts {
     grid-template-columns: 1fr;
   }
-} */
+}
+
