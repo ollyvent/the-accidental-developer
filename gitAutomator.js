@@ -1,6 +1,7 @@
 const { execSync } = require('child_process');
 const readline = require('readline-sync');
 
+
 // Function to execute shell commands
 const executeCommand = (command) => {
   try {
@@ -24,3 +25,7 @@ executeCommand(`git commit -m "${commitMessage}"`);
 executeCommand('git push origin main');
 
 console.log('Changes staged, committed, and pushed successfully!');
+
+
+
+// 'node gitAutomator.js' to run command and push

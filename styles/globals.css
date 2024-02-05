@@ -86,7 +86,7 @@ font-family: 'Zilla Slab Highlight', serif;
 
 .posts {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   margin-top: 30px;
 }
@@ -109,6 +109,7 @@ font-family: 'Zilla Slab Highlight', serif;
 .post-date {
   margin-bottom: 20px;
   font-family: Ephesis, sans-serif;
+  font-size: 15px;
 }
 
 .post-body ul,
@@ -144,8 +145,8 @@ ol {
   font-size: 40px;
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .posts {
     grid-template-columns: 1fr;
   }
-}
+} */
