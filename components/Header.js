@@ -7,8 +7,10 @@ function CustomHeader() {
     <header className="custom-header">
       <div className="custom-container">
         {/* Navigation link to the homepage */}
-        <Link legacyBehavior href="/">
-          <div className="brand-name">TechBlog</div>
+        <Link href="/">
+          <div className="brand-name">
+            TechBlog
+          </div>
           <span className="role">INNOVATOR</span>
         </Link>
       </div>
