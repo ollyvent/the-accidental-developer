@@ -14,7 +14,7 @@ function CustomPost({ post }) {
       <p>{post.frontmatter.summary}</p>
 
       {/* Link to the detailed post page */}
-      <Link href={`/blog/${post.slug}`}>
+      <Link legacyBehavior href={`/blog/${post.slug}`}>
         <a className="custom-btn">Read More</a>
       </Link>
     </div>

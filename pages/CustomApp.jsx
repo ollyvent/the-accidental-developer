@@ -1,6 +1,6 @@
 // CustomApp.jsx
 import "@/styles/globals.css";
-import CustomHeader from "../components/Header";
+import CustomHeader from "../components/CustomHeader";
 
 // CustomApp component as the main layout for the website
 export default function CustomApp({ Component, pageProps }) {
