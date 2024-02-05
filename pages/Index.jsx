@@ -1,19 +1,24 @@
+// Index.jsx
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import Head from "next/head";
-import Post from "../components/CustomPost";
+import CustomPost from "../components/CustomPost";
 import { sortByDate } from "../utils";
 
+
+// Home component for the homepage
 export default function Home({ posts }) {
   return (
     <div>
+      {/* Setting metadata for the webpage */}
       <Head>
-        <title>Accidental Developer Blog</title>
+        <title>TechBlog - Empowering Innovators</title>
       </Head>
+
+      {/* Hero section of the homepage */}
       <div className="hero">
-        <h1 className="main-heading"><b>FROM MISFIT TO MARVERICK</b></h1>
-        <br />
+        <h1 className="main-heading"><b>EMBRACING TECH INNOVATION</b></h1><br />
         <h6>A Journey of Transformation and Triumph in Programming</h6>
         <br />
         <img
@@ -37,9 +42,10 @@ export default function Home({ posts }) {
         <h2>Front-End Development Series</h2>
       </div>
 
-      <div className="posts">
+      {/* Displaying blog posts on the homepage */}
+      <div className="custom-posts">
         {posts.map((post, index) => (
-          <Post post={post} />
+          <CustomPost post={post} key={index} />
         ))}
       </div>
     </div>
